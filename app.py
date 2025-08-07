@@ -8,7 +8,7 @@ language = st.text_input("Target language (e.g., Spanish, French)")
 
 if st.button("Translate"):
     response = requests.post(
-        "https://translate-pmjdrxqbeaihhdahgbpyhk.streamlit.app/chain/playground/",  # 👈 Usa aquí la URL donde tienes desplegada tu API
+        "https://translate-pmjdrxqbeaihhdahgbpyhk.streamlit.app/chain/invoke",  # 👈 Usa aquí la URL donde tienes desplegada tu API
         json={"input": {"text": text, "language": language}}
     )
 
