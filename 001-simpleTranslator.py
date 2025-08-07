@@ -36,7 +36,7 @@ add_routes(
     path="/chain",
 )
 
-if __name__ == "__main__":
-    import uvicorn
-
-    uvicorn.run(app, host="localhost", port=8000)
+# if __name__ == "__main__":
+#    import uvicorn
+#
+#    uvicorn.run(app, host="localhost", port=8000)
